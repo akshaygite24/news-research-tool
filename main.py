@@ -1,0 +1,13 @@
+import os
+import streamlit as st
+import pickle
+import time
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from langchain_classic.chains.qa_with_sources.retrieval import RetrievalQAWithSourcesChain
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import UnstructuredURLLoader
+from langchain_community.vectorstores import FAISS
+
+from dotenv import load_dotenv
+load_dotenv()
+
