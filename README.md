@@ -19,7 +19,7 @@ A Streamlit-based web application that allows you to research and ask questions 
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/akshaygite24/news-research-tool.git
 cd news-research-tool
 ```
 
