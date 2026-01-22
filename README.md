@@ -1,4 +1,4 @@
-# News Research Tool 📰
+# News Research Tool
 
 A Streamlit-based web application that allows you to research and ask questions about news articles using AI. The tool uses Google's Gemini AI and FAISS vector store to provide intelligent answers with source attribution.
 
@@ -64,10 +64,5 @@ streamlit run main.py
 - **FAISS**: Vector database for efficient similarity search
 - **Python-dotenv**: Environment variable management
 
-## License
-
-MIT License
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
+## Developed By
+**Akshay**
